@@ -1,0 +1,35 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: azure;
+  }
+  .carousel-container :focus,
+  .carousel-container :active {
+  outline: none;
+  
+}
+  .carousel-container {
+    max-width:  500px; 
+  }
+  
+  .astyle {
+    color: #333333;
+    text-align: center;
+    font-size:  1.5rem; 
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .astyle:hover {
+    color: red; 
+  }
+  .astyle:active {
+    color: pink;
+  } 
+.carousel-image {
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
