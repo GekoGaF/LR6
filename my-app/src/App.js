@@ -8,7 +8,7 @@ const ImageCarousel = () => {
     const settings = {
     dots: false,
     infinite: true,
-    speed: 10,
+    speed: 1000,
     slidesToShow: 1,
     autoplay: true,
     autoplaySpeed: 4000,
@@ -17,6 +17,7 @@ const ImageCarousel = () => {
 
   return (
     <div className="carousel-container"> 
+    <img src="./images/gerb.png" alt="Emblem of Ukraine" className="gerb" />
       <Slider {...settings}>
         <div>
           <img src='./images/image1.png' alt='slide-1' className="carousel-image" />
@@ -25,9 +26,9 @@ const ImageCarousel = () => {
             </a>
         </div>
         <div>
-        <a className="astyle" href="https://radixweb.com/blog/react-vs-vue">
+        
           <img src='./images/image2.png' alt='slide-2' className="carousel-image" />
-          
+          <a className="astyle" href="https://radixweb.com/blog/react-vs-vue">
           <p>React проти Vue: коротке порівняння найкращих JavaScript-фреймворків!</p>
             </a>
         </div>

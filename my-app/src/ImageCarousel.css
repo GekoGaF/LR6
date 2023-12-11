@@ -1,3 +1,10 @@
+.gerb {
+  width: 20%;
+  display: block; 
+  margin: 0 auto;
+  margin-bottom: 50px;
+  
+}
 .app-container {
     display: flex;
     justify-content: center;
